@@ -12,10 +12,11 @@
 body{
    background: var(--preta);
    font-family: 'Times New Roman', Times, serif;
+   color: white;
     
 }
 
-.container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,4 +38,24 @@ nav a {
 
 nav a:hover{
     color: #fff;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/velozes.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 40px;
 }
