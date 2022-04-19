@@ -14,3 +14,11 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function abrir (){
+    window.open('https://www.youtube.com/watch?v=hujU0dw6Erk&t=9s')
+}
+
+function info (){
+    window.open('https://pt.wikipedia.org/wiki/Furious_7')
+}
